@@ -1,9 +1,9 @@
-# Configuration_file
+# this is a comment
 {
-    "h_score": "file_path",
+    "h_score": "file_path", # this is a comment
     "level": "array_of_multiple_level",
-    "width": 4,
-    "height": 4,
+    "width": 14,
+    "height": 13,
     "lives": 3,
     "pacgum": 42,
     "points_per_pacgum": 10,
@@ -12,6 +12,7 @@
     "seed": 42,
     "level_max_time": 90
 }
+
 # highscore_filename
 # • level array of multiple levels
 # • width , height for each level
