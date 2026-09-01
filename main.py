@@ -43,9 +43,8 @@ def main() -> None:
     try:
         with open("config.json") as f:
             text = f.read()
-
         data = json.loads(remove_comments(text))
-
+        
         print(data)
         size = (data["width"], data["height"])
 
@@ -57,6 +56,14 @@ def main() -> None:
         with open("test.txt", "w") as e:
             for row in maze:
                 e.write("".join(f"{cell:X}" for cell in row) + "\n")
+
+
+        data["h_score"] = json.dump
+
+
+        # with open(data["h_score"], "w") as s:
+        #     s.write("Testing score save")
+        
         # display_maze(maze, False)
 
     except FileNotFoundError:

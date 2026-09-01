@@ -1,6 +1,6 @@
 # this is a comment
 {
-    "h_score": "file_path", # this is a comment
+    "h_score": "./data/score.json", # this is a comment
     "level": "array_of_multiple_level",
     "width": 14,
     "height": 13,
